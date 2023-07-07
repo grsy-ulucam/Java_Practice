@@ -54,5 +54,5 @@ public class j04_Encapsulation {
     public String setBirthdayHappy(String s) {
      return s;
     }
-    
+
 }

@@ -1,7 +1,5 @@
 package lessons;
 
-import java.time.LocalDate;
-import java.util.Locale;
 
 public class j05_Encapsulation {
 
