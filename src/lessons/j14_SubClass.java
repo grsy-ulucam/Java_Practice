@@ -7,13 +7,20 @@ public class j14_SubClass extends j13_SuperClass{
     }
 
     public  void  getAge(){
+
         System.out.println("enter your age");
     }
     public  void  getAge(int age){
+
         System.out.println(age);
     }
     public  void  getAge(String name,String surname,int age){
+
         System.out.println(name+" " +surname+" " +age);
+    }
+
+    public  void  giveInformation(String text){
+        System.out.println(text);
     }
 
     public static void main(String[] args) {
@@ -23,5 +30,7 @@ public class j14_SubClass extends j13_SuperClass{
         txx.getAge();
         txx.getAge(12);
         txx.getAge("Gürsoy","Uluçam",38);
+        txx.giveInformation();
+        txx.giveInformation("Superclass overloading method");
     }
 }
