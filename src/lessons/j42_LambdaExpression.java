@@ -53,4 +53,6 @@ public class j42_LambdaExpression {
     public  static  boolean tekMi(int X){
         return  X%2==1;
     }
+
+
 }
