@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-public class J46_Sorted {
+public class  j46_Sorted {
     public static void main(String[] args) {
         List<Integer> text = new ArrayList<>(Arrays.asList(1, 23, 4, 5, 67, 8, 9));
         sort1(text);
