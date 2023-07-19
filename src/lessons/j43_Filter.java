@@ -61,7 +61,7 @@ public class j43_Filter {
                 filter(j42_LambdaExpression::ciftMi).
                 forEach(j42_LambdaExpression::yazdır);
     }
-    
+
     private static void text3(List<Integer> data) {
         data.
                 stream().
