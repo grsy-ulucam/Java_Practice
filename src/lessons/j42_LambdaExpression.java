@@ -37,6 +37,7 @@ public class j42_LambdaExpression {
     }
 
     private static void sayı2(List<Integer> numbers) {
+
         numbers.
                 stream().
                 forEach(t -> System.out.print(t + " "));
